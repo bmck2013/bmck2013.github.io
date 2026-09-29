@@ -6,7 +6,6 @@ category: Guides
 draft: false
 ---
 
-# 更新内容
 `pnpm dev`    # 先开 http://localhost:4321 看文章是否正常
 
 
