@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]      # 如果你默认分支是 master，改成 master
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -19,10 +19,8 @@ jobs:
 
       - name: Install, build and upload
         uses: withastro/action@v6
-        with:
-          package-manager: pnpm@latest   # 模板有 pnpm-lock.yaml，也可不写让它自动识别
-          # node-version: 20              # 构建报 Node 版本再开这个
-          # build-cmd: pnpm run build
+        # 不指定 pnpm 版本，自动识别 package.json 的 packageManager 字段
+        # 也不需要设 build-cmd，默认读 package.json 的 build 脚本
 
   deploy:
     needs: build
@@ -31,6 +29,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
