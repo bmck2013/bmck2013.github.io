@@ -29,7 +29,7 @@ const projectsCollection = defineCollection({
 const specCollection = defineCollection({
   type: 'content',
   schema: z.object({
-    title: z.string(),
+  title: z.string(),
     description: z.string(),
     comments: z.boolean().default(true),
   }),
@@ -39,7 +39,7 @@ const friendsCollection = defineCollection({
   type: 'data',
   schema: z.object({
     title: z.string(),
-    description: z.string(),
+  description: z.string(),
     avatar: z.string(),
     link: z.string().url(),
   }),

@@ -8,10 +8,12 @@ comments: false
 
 “奇境骰声”是我的个人网站，做为个人内容的发布地。
 
-## 关于 
-
-## 关于作者
+## 关于 我
 
 我是 Lunan，是一名喜欢游戏、弓箭的普通人。脑内还有一点胡思乱想。
 
 ## 致谢
+
+感谢以下项目：
+- [Github](https://github.com/)
+- [Astro](https://astro.build/)
