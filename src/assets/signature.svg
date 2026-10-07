@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+    </style>
+    <linearGradient id="gold7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5c76a"/>
+      <stop offset="100%" stop-color="#e09b3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- D20 二十面骰子：六边形轮廓 + 三角面分割 + 中心数字20 -->
+  <g transform="translate(8, 12) rotate(-8 12 13)">
+    <polygon points="12,0 23,6.5 23,19.5 12,26 1,19.5 1,6.5"
+             fill="none" stroke="url(#gold7)" stroke-width="1.6" stroke-linejoin="round"/>
+    <!-- 内部面分割线 -->
+    <line x1="12" y1="0" x2="12" y2="13" stroke="url(#gold7)" stroke-width="0.9" opacity="0.7"/>
+    <line x1="23" y1="6.5" x2="12" y2="13" stroke="url(#gold7)" stroke-width="0.9" opacity="0.7"/>
+    <line x1="23" y1="19.5" x2="12" y2="13" stroke="url(#gold7)" stroke-width="0.9" opacity="0.7"/>
+    <line x1="12" y1="26" x2="12" y2="13" stroke="url(#gold7)" stroke-width="0.9" opacity="0.7"/>
+    <line x1="1" y1="19.5" x2="12" y2="13" stroke="url(#gold7)" stroke-width="0.9" opacity="0.7"/>
+    <line x1="1" y1="6.5" x2="12" y2="13" stroke="url(#gold7)" stroke-width="0.9" opacity="0.7"/>
+    <!-- 数字20 -->
+    <text x="12" y="16" text-anchor="middle"
+          font-family="'Helvetica Neue', Arial, sans-serif"
+          font-size="10" font-weight="700" fill="url(#gold7)">20</text>
+  </g>
+
+  <!-- 主文字：金色手写体 -->
+  <text x="44" y="36"
+        font-family="'Ma Shan Zheng', 'Kaiti SC', 'STKaiti', 'KaiTi', cursive"
+        font-size="28"
+        fill="url(#gold7)"
+        letter-spacing="4">奇境骰声</text>
+</svg>
