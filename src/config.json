@@ -75,27 +75,27 @@
       "link": "/archives",
       "icon": "icon-archive"
     },
-//    {
-//      "name": "项目",
-//      "link": "/projects",
-//      "icon": "icon-flask"
-//    },
+    {
+      "name": "项目",
+      "link": "/projects",
+      "icon": "icon-flask"
+    },
     {
       "name": "关于",
       "link": "/about",
       "icon": "icon-ghost"
     },
-//    {
-//      "name": "友链",
-//      "link": "/friends",
-//      "icon": "icon-hearts"
-//    }
+    {
+      "name": "友链",
+      "link": "/friends",
+      "icon": "icon-hearts"
+    }
   ],
   "posts": {
     "perPage": 10
   },
   "footer": {
-    "startTime": "2026-10-06T00:00:00Z"
+    "startTime": "2026-10-07T00:00:00Z"
   },
   "waline": {
     "serverURL": ""
