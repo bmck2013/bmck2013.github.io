@@ -4,7 +4,7 @@ pubDate: 2026-10-14
 ---
 
 <a href="https://wonderclatter.com">
-  <img align="right" src="profile.jpg" width="125" height="auto"/>
+  <img align="right" src="/profile.jpg" width="125" height="auto"/>
 </a>
 
 ### Hi, I'm Lunan 👋
