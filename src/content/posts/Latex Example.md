@@ -1,6 +1,6 @@
 ---
 title: Latex Example
-pubDate: 2023-10-01
+pubDate: 2026-10-14
 categories: ["Examples"]
 description: "Here is a sample of some basic Latex syntax that can be used when writing Latex content in Astro."
 slug: latex-example

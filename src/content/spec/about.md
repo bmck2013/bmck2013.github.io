@@ -1,6 +1,16 @@
 ---
 title: 关于
-pubDate: 2024-12-06
+pubDate: 2026-10-14
 ---
 
-此主题系 Hexo 主题 <a href="https://github.com/sumimakito/hexo-theme-typography">活版印字</a> 在 Astro 平台上的移植版本
+<a href="https://wonderclatter.com">
+  <img align="right" src="profile.jpg" width="125" height="auto"/>
+</a>
+
+### Hi, I'm Lunan 👋
+
+- 💻 Just an ordinary daydreamer
+- 💫 Interested in Book, Movie, Tabletop Game, Painted Miniature. And any other pretty things
+- 💬 Blog at [here](https://wonderclatter.com)
+- 📩 Reach me by sending me an email: cmmsmm [at] Gmail
+- 🌟 Nice to meet you
