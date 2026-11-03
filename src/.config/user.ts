@@ -2,7 +2,7 @@ import type { ThemeConfig } from '~/types'
 
 export const userConfig: ThemeConfig = {
   site: {
-    title: '奇境骰聲',
+    title: '奇境骰声',
     subtitle: 'wonderclatter',
     author: 'Lunan',
     description: '以骰为笔，以桌为卷 Where dice become stories',
