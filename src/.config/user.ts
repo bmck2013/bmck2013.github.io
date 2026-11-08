@@ -26,6 +26,5 @@ export const userConfig: ThemeConfig = {
       primary: '#c81623',
       background: '#ffffff',
     },
-  }
-  
+  },
 }
