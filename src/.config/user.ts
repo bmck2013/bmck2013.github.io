@@ -22,5 +22,10 @@ export const userConfig: ThemeConfig = {
   appearance: {
     locale: 'zh-cn',
     theme: 'light'
+	colorsLight: {
+      primary: '#c81623',
+      background: '#ffffff',
+    }
   }
+  
 }
