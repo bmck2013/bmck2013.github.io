@@ -25,7 +25,7 @@ export const userConfig: ThemeConfig = {
 	colorsLight: {
       primary: '#c81623',
       background: '#ffffff',
-    }
+    },
   }
   
 }
